@@ -16,13 +16,13 @@
     }
 }
 
-.pregunta-usuario1 {
+.form__div {
     padding: 7px;
     font-size: 15px;
 }
 
-.pregunta-usuario1 input:not([type='checkbox']),
-.pregunta-usuario1 select {
+.form__div input:not([type='checkbox']),
+.form__div select {
     width: 100%;
     box-sizing: border-box;
     height: 35px;
