@@ -1,0 +1,39 @@
+.form {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 5px 5px 10px #626060;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+    .form {
+        width: 300px;
+    }
+}
+
+.pregunta-usuario1 {
+    padding: 7px;
+    font-size: 15px;
+}
+
+.pregunta-usuario1 input:not([type='checkbox']),
+.pregunta-usuario1 select {
+    width: 100%;
+    box-sizing: border-box;
+    height: 35px;
+    padding: 7px;
+}
+
+.button {
+    padding: 7px;
+    text-align: right;
+}
+
+.button1 {
+    padding: 5px 10px;
+}
